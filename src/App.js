@@ -44,7 +44,7 @@ function App() {
   }
 
   return <div className="container">
-     <Header/>
+     <Header onAdd={() => setShowAddTask(!showAddTask)}/>
      {/* ternary without else */}
      {showAddTask && <AddTask onAdd={addTask}/>}
      {tasks.length > 0 ? <Tasks tasks={tasks} onDelete={deleteTask} onToggle={toggleReminder}/> : "No tasks to show"}
