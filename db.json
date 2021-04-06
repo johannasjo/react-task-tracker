@@ -11,6 +11,12 @@
       "text": "Flowers",
       "day": "Jan 8th at 23.30",
       "reminder": true
+    },
+    {
+      "text": "Take test",
+      "day": "monday",
+      "reminder": true,
+      "id": 4
     }
   ]
 }
